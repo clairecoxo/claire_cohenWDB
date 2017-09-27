@@ -1,0 +1,96 @@
+/*
+The default style sheet for this site.
+*/
+
+
+/*Reset browser's own internal CSS stylesheet before reading this file. */
+
+
+/**{
+margin:0;
+padding:0;
+}*/
+
+body {
+    font-family: Georgia, Tahoma, Verdana, sans-serif;
+    line-height: 25px;
+    font-size: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #96b6b7;
+}
+
+article {
+    background-color: #FFF;
+    padding-bottom: 20px;
+    width:900px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.reference-image {
+  margin-left: auto;
+  margin-right: auto;
+  width:800px;
+    position: relative;
+}
+
+h1 {
+    background-color: #96b6b7;
+    color: #FFF;
+    text-align: center;
+    font-family: "Avenir Next", "Gill Sans MT", Calibri, sans-serif;
+    font-weight:700;
+    font-size: 2.1875em;
+    padding: 25px 25px 25px 15px;
+
+}
+
+h2 {
+    background-color: #F1DEB2;
+    color: #FFF;
+    font-family: "Avenir Next", "Gill Sans MT", Calibri, sans-serif;
+    font-weight:700;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+h3 {
+    background-color: #B3CEDE;
+    color: #FFF;
+    font-family: "Avenir Next", "Gill Sans MT", Calibri, sans-serif;
+    font-weight:700;
+    text-align: center;
+    font-size: 1.5em;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+h4{
+  font-size:18px;
+  font-family: "Avenir Next", "Gill Sans MT", Calibri, sans-serif;
+  font-weight:700;
+  margin-right:auto;
+  margin-left:auto;
+  width:70%
+}
+
+p {
+    color: #4C4C4C;
+    margin-right:auto;
+    margin-left:auto;
+    width:70%;
+    font-size: .9375em;
+
+}
+
+footer{
+  background-color: #f9f9f9;
+  height:100px;
+  width:100%;
+  font-size: 15px;
+}
