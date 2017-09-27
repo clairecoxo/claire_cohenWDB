@@ -13,8 +13,7 @@ body {
      color: #000;
      font-size: .5rem;
      line-height: 1.4;
-     font-family: 'Kameron', serif;
-     background-color: #ffffff;
+     background-color: #C3D7E4;
 }
 
 
@@ -28,15 +27,15 @@ body {
 }
 
 h1{
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
     background-color: #ffffff;
-    position: absolute;
     margin-top: 20%;
     padding: 5px;
-    right:0;
-    font-family: Avenir Next;
+    font-family: 'Courier New';
     font-weight: 700;
-    font-style: italic;
-    font-size: 3.5rem;
+    font-size: .6rem;
     z-index: 1;
 }
 
@@ -48,18 +47,20 @@ h2{
 header {
 }
 nav{
-    margin-top: 2rem;
-    font-family: Avenir Next;
+    padding: 5px;
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    font-family: 'Courier New';
     font-weight: 700;
     font-style: italic;
-    font-size: 1.55rem;
-    z-index: 1;
-    position: absolute;
+    font-size: .6rem;
 }
 nav li{
     display: block;
     background-color: #ffffff;
-    padding: 10px;
+    padding: .2rem;
 }
 
 /*LINKS*/
@@ -71,26 +72,10 @@ a:visited{
     color:#C3D7E4;
 }
 a:hover{
-    color:#F1E0B5;
+    color:#1A216D;
     text-decoration: line-through;
 }
-/*HOMEPAGE BODY*/
-article{
-    width:98%;
-    position:fixed;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: justify;
 
-}
-
-p{
-    padding: .5em;
-    opacity: 0.3;
-    font-family: Avenir Next;
-    font-size: 1.125rem;  
-    line-height: 1.125em;
-}
 /*FOOTER*/
 footer {
     font-size:.5rem;
