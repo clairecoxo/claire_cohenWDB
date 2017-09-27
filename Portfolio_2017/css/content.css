@@ -71,7 +71,7 @@ a:hover{
     text-decoration: line-through;
 }
 
-/*GRID NAVIGATION + HOMEPAGE BODY*/
+/*GRID NAVIGATION + PROJECT BODY*/
 #grid-content{
     padding: .375rem;
     display: flex;
@@ -89,6 +89,15 @@ a:hover{
 img{
     max-width: 45rem;
     margin-right: 1rem;
+}
+.project-links{
+    font-family: 'Avenir Next';
+    font-size: 2rem;
+    font-weight: 700;
+}
+a.project-links:hover{
+    color:#F1E0B5;
+    text-decoration: none;
 }
 
 /*FOOTER*/
