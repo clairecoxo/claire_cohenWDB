@@ -18,52 +18,34 @@
 		<div id="container"> 
             <article>
                 <h1>Claire Cohen</h1>
-        <nav>		
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Projects</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">TK</a>
-        <a href="#">TK</a>
-        <a href="#">TK</a>
-      </div>
-</div>
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Words</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">TK</a>
-        <a href="#">TK</a>
-        <a href="#">TK</a>
-      </div>
-</div>
-            <li><a href="../Portfolio_2017/about.html">About</a></li>
-            <li><a href="../Portfolio_2017/contact.html">Contact</a></li>
-		</nav>	
-                
+                <nav>
+                    <div class="listelement">
+                        <li>Projects</li>
+                        <div class="content"><a href="../Portfolio_2017/projects.html">Farm to Table Fashion</a></div>
+                        <div class="content"><a href="../Portfolio_2017/#">TKTK</a></div>
+                        </div>
+                    <div class="listelement">
+                        <li>Words</li>
+                        <div class="content"><a href="../Portfolio_2017/#">TKTK</a></div>
+                        <div class="content"><a href="../Portfolio_2017/#">TKTK</a></div>
+                    </div>
+                        <li><a href="../Portfolio_2017/about.html">About</a></li>
+                        <li><a href="../Portfolio_2017/contact.html">Contact</a></li>
+		      </nav>	     
             </article>
 		</div><!-- #container --> 
         
 <!--DROPDOWN MENU SCRIPT-->
-        <script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+<script>
+  $('.content').hide();
+  $('.listelement').on('click', function(){
+    if(!($(this).children('.content').is(':visible'))){
+      $('.content').slideUp();
+      $(this).children('.content').slideDown();
+    } else {
+      $('.content').slideUp();
     }
-  }
-}
+  });
 </script>
 	</body>
 </html>
