@@ -10,10 +10,8 @@ Author: Claire Cohen
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: .5rem;
-     line-height: 1.4;
-     background-color: #0b0e2f;
+    color: #000;
+    background-color: #0b0e2f;
 }
 
 
@@ -86,11 +84,67 @@ a{
 }
 a:hover{
     text-decoration: line-through;
+    cursor: pointer;
 }
 
 /*FOOTER*/
 footer {
     font-size:.5rem;
+}
+
+/*MOODBOARD*/
+
+.description {
+    display: none;
+    font-family: "Bodoni Italic", Garamond, "Times New Roman", serif;
+    font-size: 0.8em;
+    font-style: italic;
+    padding-top: 0.5em;
+    letter-spacing: 0.09em;
+}
+
+.mood-board {
+  width: 100%;
+  height: 100vh;
+  background-color:#fff;
+  position: relative;
+}
+.mood-board .title {
+    font-family: "Bodoni Italic";
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    height: 40vh;
+}
+.mood-board .images {
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: auto;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+}
+.mood-board .element {
+  position: absolute;
+  z-index: 0;
+}
+.mood-board .element:hover .description {
+    display: block;
+    font-size: 1.125rem;
+}
+.mood-board .element img {
+  width: 100%;
+  height: 100%;
 }
 
 /******************************************
