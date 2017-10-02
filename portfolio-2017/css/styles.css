@@ -106,13 +106,14 @@ footer {
 .mood-board {
   width: 100%;
   height: 100vh;
-  background-color:#fff;
+  background-color:#d3d3d3;
   position: relative;
 }
 .mood-board .title {
-    font-family: "Bodoni Italic";
+    font-family: 'Archivo Black', sans-serif;
+    text-transform: uppercase;
     text-align: center;
-    font-size: 3rem;
+    font-size: 8rem;
     position: absolute;
     top: 0;
     bottom: 0;
