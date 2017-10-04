@@ -120,13 +120,17 @@ h1.about-page{
     background-color: #fff;
 }
 .page-footer{
-    background-color: orange;
+    background-color: #fff;
     width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
 
 ul.about-page{
+    padding: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #C3D7E4;
     list-style-type: none;
     display: flex;
     justify-content: space-around;   
@@ -137,7 +141,9 @@ li.about-page{
     font-family: 'Courier New';
     font-size: .6rem;
     font-weight: 700;
-    text-align: center;
+}
+li:hover{
+    background-color: none;
 }
 
 /*MOODBOARD*/
