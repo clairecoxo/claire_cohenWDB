@@ -40,7 +40,7 @@ h1{
     padding: 5px;
     font-family: 'Courier New';
     font-weight: 700;
-    font-size: .6rem;
+    font-size: .6875rem;
     z-index: 1;
 }
 /*Header*/
@@ -55,7 +55,7 @@ nav{
     background-color: #fff;
     font-family: 'Courier New';
     font-weight: 700;
-    font-size: .6rem;
+    font-size: .6875875rem;
 }
 nav li{
     display: block;
@@ -66,7 +66,7 @@ nav li{
 /*Homepage Dropdown Menu*/
 li{
     font-family: 'Courier New';
-    font-size: .6rem;
+    font-size: .6875rem;
     font-weight: 700;
     text-align: left;
 }
@@ -75,7 +75,7 @@ li:hover{
 }
 .content{
       font-family: 'Courier New';
-      font-size: .6rem;
+      font-size: .6875rem;
       padding: 8px 6px;
       font-weight: 400;
 }
@@ -106,7 +106,7 @@ h1.about-page{
     background-color: #ffffff;
     font-family: 'Courier New';
     font-weight: 700;
-    font-size: .6rem;
+    font-size: .6875rem;
 }
 
 .about-text{
@@ -116,7 +116,7 @@ h1.about-page{
     margin-right: auto;
     font-family: 'Courier New';
     font-weight: 400;
-    font-size: .6rem; 
+    font-size: .6875rem; 
     background-color: #fff;
 }
 .page-footer{
@@ -139,7 +139,7 @@ ul.about-page{
 li.about-page{
     justify-content: space-between;
     font-family: 'Courier New';
-    font-size: .6rem;
+    font-size: .6875rem;
     font-weight: 700;
 }
 li:hover{
