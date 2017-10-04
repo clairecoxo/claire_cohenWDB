@@ -103,7 +103,7 @@ footer {
 
 /*ABOUT PAGE STYLES*/
 h1.about-page{
-    width:35%;
+    width:40%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
@@ -113,7 +113,7 @@ h1.about-page{
 }
 
 .about-text{
-    width:35%;
+    width:40%;
     line-height: .9rem;
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +124,7 @@ h1.about-page{
 }
 .page-footer{
     background-color: #fff;
-    width: 35%;
+    width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -151,7 +151,7 @@ li:hover{
 
 /*WORDS PAGE STYLES*/
 h1.words-page{
-    width:35%;
+    width:40%;
     margin-left: auto;
     margin-right: auto;
     background-color: #ffffff;
@@ -160,7 +160,7 @@ h1.words-page{
     font-size: .6875rem;
 }
 .words-text{
-    width:35%;
+    width:40%;
     line-height: .9rem;
     margin-left: auto;
     margin-right: auto;
