@@ -37,6 +37,35 @@ h1{
     z-index: 1;
 }
 
+/*ABOUT PAGE STYLES*/
+
+.page-footer{
+    background-color: orange;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-nav{
+    display: inline-block;
+}
+
+#aboutcontainer{
+    background-color: white;
+}
+
+p.about-body{
+    width:40%;
+    line-height: .9rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: .6rem; 
+}
+
+article{
+    background-color: white;
+}
 /*HEADER*/
 header {
 }
