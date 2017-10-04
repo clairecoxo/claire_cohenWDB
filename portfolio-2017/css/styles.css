@@ -14,7 +14,9 @@ body {
     background-color: #0b0e2f;
 }
 
-
+body.about-page{
+    background-color: white;
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
