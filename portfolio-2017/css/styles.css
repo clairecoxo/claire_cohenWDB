@@ -17,11 +17,16 @@ body {
 body.about-page{
     background-color: #fff;
 }
+
+body.contact-page{
+    background-color: #fff;   
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
 
 /* Center the container */
+/*HOMEPAGE STYLE*/
 #container {
     width:100%;
 }
@@ -38,52 +43,7 @@ h1{
     font-size: .6rem;
     z-index: 1;
 }
-
-/*ABOUT PAGE STYLES*/
-
-h1.about-page{
-    width:35%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #ffffff;
-    font-family: 'Courier New';
-    font-weight: 700;
-    font-size: .6rem;
-}
-
-.page-footer{
-    background-color: orange;
-    width: 35%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.page-nav{
-    display: inline-block;
-}
-
-ul.about-page{
-    list-style-type: none;
-}
-
-#aboutcontainer{
-    background-color: #fff;
-}
-
-.about-text{
-    width:35%;
-    line-height: .9rem;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Courier New';
-    font-weight: 400;
-    font-size: .6rem; 
-    background-color: #fff;
-}
-
-article{
-    background-color: #fff;
-}
-/*HEADER*/
+/*Header*/
 header {
 }
 
@@ -103,7 +63,7 @@ nav li{
     padding: 5px;
 }
 
-/*DROPDOWN MENU*/
+/*Homepage Dropdown Menu*/
 li{
     font-family: 'Courier New';
     font-size: .6rem;
@@ -123,7 +83,7 @@ li:hover{
     cursor: pointer;
 }
 
-/*LINKS*/
+/*Homepage Links*/
 a{
     color:#000000;
     text-decoration: none;
@@ -136,6 +96,48 @@ a:hover{
 /*FOOTER*/
 footer {
     font-size:.5rem;
+}
+
+/*ABOUT PAGE STYLES*/
+h1.about-page{
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: .6rem;
+}
+
+.about-text{
+    width:35%;
+    line-height: .9rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: .6rem; 
+    background-color: #fff;
+}
+.page-footer{
+    background-color: orange;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul.about-page{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;   
+}
+
+li.about-page{
+    justify-content: space-between;
+    font-family: 'Courier New';
+    font-size: .6rem;
+    font-weight: 700;
+    text-align: center;
 }
 
 /*MOODBOARD*/
