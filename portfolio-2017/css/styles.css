@@ -21,6 +21,9 @@ body.about-page{
 body.contact-page{
     background-color: #fff;   
 }
+body.words-page{
+    background-color: #fff;   
+}
 /******************************************
 /* LAYOUT                   
 /*******************************************/
@@ -146,6 +149,26 @@ li:hover{
     background-color: none;
 }
 
+/*WORDS PAGE STYLES*/
+h1.words-page{
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: .6875rem;
+}
+.words-text{
+    width:35%;
+    line-height: .9rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Courier New';
+    font-weight: 400;
+    font-size: .6875rem; 
+    background-color: #fff;
+}
 /*MOODBOARD*/
 
 .description {
