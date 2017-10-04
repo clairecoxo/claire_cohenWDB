@@ -53,7 +53,7 @@ h1{
     background-color: white;
 }
 
-p.about-body{
+.about-body{
     width:40%;
     line-height: .9rem;
     margin-left: auto;
