@@ -15,7 +15,7 @@ body {
 }
 
 body.about-page{
-    background-color: white;
+    background-color: #fff;
 }
 /******************************************
 /* LAYOUT                   
@@ -41,9 +41,19 @@ h1{
 
 /*ABOUT PAGE STYLES*/
 
+h1.about-page{
+    width:35%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    font-family: 'Courier New';
+    font-weight: 700;
+    font-size: .6rem;
+}
+
 .page-footer{
     background-color: orange;
-    width: 40%;
+    width: 35%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,23 +61,27 @@ h1{
     display: inline-block;
 }
 
+ul.about-page{
+    list-style-type: none;
+}
+
 #aboutcontainer{
-    background-color: white;
+    background-color: #fff;
 }
 
 .about-text{
-    width:40%;
+    width:35%;
     line-height: .9rem;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Courier New';
     font-weight: 400;
     font-size: .6rem; 
-    background-color: white;
+    background-color: #fff;
 }
 
 article{
-    background-color: white;
+    background-color: #fff;
 }
 /*HEADER*/
 header {
@@ -78,7 +92,7 @@ nav{
     width:40%;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #fff;
     font-family: 'Courier New';
     font-weight: 700;
     font-size: .6rem;
