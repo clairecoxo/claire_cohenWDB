@@ -129,6 +129,9 @@ h1.about-page{
     margin-right: auto;
 }
 
+ul{
+    padding:0;
+}
 ul.about-page{
     padding: 0;
     padding-top: 5px;

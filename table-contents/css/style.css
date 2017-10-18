@@ -1,0 +1,70 @@
+/* 
+Project Name: Table of Contents WDB
+Client: WDB
+Author:Claire Cohen
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT                   
+/*******************************************/
+
+/* Center the container */
+#container {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    background: #C3D7E4;
+}
+
+header{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-size:1.125em;
+}
+
+.title{
+    font-family: 'Arapey', serif;
+    margin-right: auto;
+    margin-left: auto;
+    color:black;
+}
+
+
+li{  
+    text-align: center;
+    font-size:1.125em;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES                   
+/*******************************************/
+
+
+
+
