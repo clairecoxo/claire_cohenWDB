@@ -15,6 +15,7 @@ Author:Claire Cohen
 /*******************************************/
 
 body {
+    background-color: #C3D7E4;
      color: #000;
      font-size: 12px;
      line-height: 1.4;
@@ -28,10 +29,9 @@ body {
 
 /* Center the container */
 #container {
-    width: 75%;
+    width: 55%;
     margin-right: auto;
     margin-left: auto;
-    background: #C3D7E4;
 }
 
 header{
@@ -48,13 +48,26 @@ header{
     color:black;
 }
 
-
-li{  
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: navy;
+    text-decoration: none;
+}
+li{ 
+    font-family: 'adobe caslon pro';
     text-align: center;
     font-size:1.125em;
+    padding: 0;
     list-style: none;
     margin-right: auto;
     margin-left: auto;
+}
+
+ul{
+    padding: 0;
 }
 
 footer {
