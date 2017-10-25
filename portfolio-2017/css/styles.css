@@ -250,7 +250,7 @@ h1.words-page{
     h1 {
         font-size: 1.5rem;
     }
-     nav, p {
+     nav {
         font-size: 1.125rem;
     }
     .page-footer{
@@ -260,11 +260,11 @@ h1.words-page{
         height: 45px;
     }
 }
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1440px) {
     h1 {
-        font-size: 1.5rem;
-    }
-     nav, p {
         font-size: 1.125rem;
+    }
+     li {
+        font-size: 1rem;
     }
 }
