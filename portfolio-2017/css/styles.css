@@ -247,13 +247,24 @@ h1.words-page{
 /*******************************************/
 
 @media only screen and (max-width: 450px) {
-    body {
-        background-color: lightblue;
-        font-size: 52px;
+    h1 {
+        font-size: 1.5rem;
+    }
+     nav, p {
+        font-size: 1.125rem;
     }
     .page-footer{
-        display: block;
-        width: 40%;
+        width: 100%;
+        bottom: 0;
+        position: fixed;
+        height: 45px;
     }
 }
-
+@media only screen and (min-width: 1280px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+     nav, p {
+        font-size: 1.125rem;
+    }
+}
