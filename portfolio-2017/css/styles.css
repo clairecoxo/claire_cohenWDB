@@ -317,7 +317,8 @@ label {
 }
 
 fieldset {
-    width: 40%;
+    width:100%;
+    border: none;
     margin-right: auto;
     margin-left: auto;
 }
