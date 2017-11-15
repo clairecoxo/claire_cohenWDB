@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Email Form Test Page</title>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css" media="all">
+	<link rel="stylesheet" href="css/style.css" media="all">
+</head>
+<body>
+	<header>
+	</header>
+	<div class="wrapper">
+		<div class="main">
+			<article>
+				<h1 class="form-heading">Sign up!</h1>
+				<div class="form-text">
+				<p>
+				Want to receive my newsletter? Sign up for news delivered right to your inbox. Unsubscribe at anytime (:.
+				</p>
+				</div>
+				<form method="post" action="https://formspree.io/claire.cohen17@gmail.com" autocomplete="off">
+					<fieldset>
+						<h2 class="site-account">Account</h2>
+							<div class="fields">
+								<p class="row">
+									<label for="first-name">First Name:</label><input type="text" id="first-name" name="first_name" class="field-large" required="required" autofocus="autofocus" />
+								</p>
+								<p class="row">
+									<label for="last-name">Last Name:</label><input type="text" id="last-name" name="last_name" class="field-large" required="required" />
+								</p>
+								<p class="row">
+									<label for="email">Email:</label><input id="email" class="field-large" type="email" placeholder="yourname@example.com" name="email" required="required" />
+								</p>
+							</div>	
+					</fieldset>
+					<fieldset>
+						<h2 class="site-account">Subscription Quanity</h2>
+							<div class="fields-checkboxes">
+								<div class="row">
+									<input type="checkbox" id="email-ok-msg-from-users" name="email_signup[]" value="user-emails" />
+									<label for="email-ok-msg-from-users">It is okay to email me about Shopping promotions</label>
+								</div>
+								<div class="row">
+									<input type="checkbox" id="email-ok-occasional-updates" name="email_signup[]" value="occasional-updates" />
+									<label for="email-ok-occasional-updates">It is okay to email me with news about upcoming events.</label>
+								</div>    			
+							</div>
+					</fieldset>
+					<div class="button-wrapper">
+						<input type="submit" value="Create Account" class="button" />
+					</div>
+				</form>
+			</article>
+		</div>
+	</div>		
+</body>
+</html>
+	
