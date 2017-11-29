@@ -211,7 +211,21 @@ h1.words-page{
     background-color: #fff;
 }
 
+.farm-vid{
+    display: flex;
+    justify-content: center;
+}
 
+video{
+    width:40%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.farm-words-page{
+    margin-top:8%;
+}
 /*MOODBOARD*/
 
 .description {
